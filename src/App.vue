@@ -1,29 +1,42 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="player">
+    <button @click="togglePlayback()">Play</button>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+export default {
+  name: 'AppContainer',
+  date() {
+    return {
+      sound: null,
+      playStatus: 'Play',
+    };
+  },
+  mounted() {
+    this.sound = new Howl({
+      html5: true,
+      src: ['/mixtapes/estivated/15 - Eaves - with out u.mp3'],
+    });
+  },
+  methods: {
+    togglePlayback() {
+      if (!this.$store.getters.isPlaying) {
+        this.sound.play();
+        this.$store.dispatch('startPlaying');
+      } else {
+        this.sound.pause();
+        this.$store.dispatch('pausePlaying');
+      }
+    },
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+  button {
+    width: 300px;
+    height: 150px;
+    font-size: 30px;
   }
-}
 </style>
