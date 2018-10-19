@@ -1,0 +1,79 @@
+{
+  "name": "Estivated",
+  "cover": "/mixtapes/estivated/estivated.jpg",
+  "tracks": [
+    {
+      "artist": "J Fernandez",
+      "song": "No Luck",
+      "filename": "01 - J Fernandez - No Luck.mp3"
+    }, {
+      "artist": "Donnie &amp; Joe Emerson",
+      "song": "Baby",
+      "filename": "02 - Donnie &amp; Joe Emerson - Baby.mp3"
+    }, {
+      "artist": "Levek",
+      "song": "With a Slow Burn",
+      "filename": "03 - Levek - With a Slow Burn.mp3"
+    }, {
+      "artist": "The Zombies",
+      "song": "Tell Her No",
+      "filename": "04 - The Zombies - Tell Her No.mp3"
+    }, {
+      "artist": "Pure Bathing Culture",
+      "song": "Silver Shores Lake",
+      "filename": "05 - Pure Bathing Culture - Silver Shores Lake.mp3"
+    }, {
+      "artist": "Naomi and the Boys",
+      "song": "As Tears Go By",
+      "filename": "06 - Naomi and the Boys - As Tears Go By.mp3"
+    }, {
+      "artist": "Little Smoke",
+      "song": "Jacuzzi Floozies",
+      "filename": "07 - Little Smoke - Jacuzzi Floozies.mp3"
+    }, {
+      "artist": "Davey &amp; The Chains",
+      "song": "I Was There",
+      "filename": "08 - Davey &amp; The Chains - I Was There.mp3"
+    }, {
+      "artist": "Pale Sea",
+      "song": "My Own Mind",
+      "filename": "09 - Pale Sea - My Own Mind.mp3"
+    }, {
+      "artist": "Tashaki Miyaki",
+      "song": "Best Friend",
+      "filename": "10 - Tashaki Miyaki - Best Friend.mp3"
+    }, {
+      "artist": "Seapony",
+      "song": "What You Wanted",
+      "filename": "11 - Seapony - What You Wanted.mp3"
+    }, {
+      "artist": "The Spyrals",
+      "song": "Lonely Eyes",
+      "filename": "12 - The Spyrals - Lonely Eyes.mp3"
+    }, {
+      "artist": "Grandparents",
+      "song": "Golden Isles",
+      "filename": "13 - Grandparents - Golden Isles.mp3"
+    }, {
+      "artist": "Alex Klinger",
+      "song": "Le Premier",
+      "filename": "14 - Alex Klinger - Le Premier.mp3"
+    }, {
+      "artist": "Eaves",
+      "song": "with out u",
+      "filename": "15 - Eaves - with out u.mp3"
+    }, {
+      "artist": "S O H N",
+      "song": "The Wheel",
+      "filename": "16 - S O H N - The Wheel.mp3"
+    }, {
+      "artist": "Major Lazer feat Amber Coffman",
+      "song": "Get Free",
+      "filename": "17 - Major Lazer feat Amber Coffman - Get Free.mp3"
+    }, {
+      "artist": "Peaking Lights",
+      "song": "Silver Tongues, Soft Whispers",
+      "filename": "18 - Peaking Lights - Silver Tongues, Soft Whispers.mp3"
+    }
+  ]
+}
