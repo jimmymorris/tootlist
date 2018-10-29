@@ -1,76 +1,112 @@
 {
   "name": "Estivated",
   "cover": "/mixtapes/estivated/estivated.jpg",
+  "filepath": "./mixtapes/estivated/",
   "tracks": [
     {
+      "order": 1,
       "artist": "J Fernandez",
       "song": "No Luck",
       "filename": "01 - J Fernandez - No Luck.mp3"
-    }, {
-      "artist": "Donnie &amp; Joe Emerson",
+    },
+    {
+      "order": 2,
+      "artist": "Donnie & Joe Emerson",
       "song": "Baby",
-      "filename": "02 - Donnie &amp; Joe Emerson - Baby.mp3"
-    }, {
+      "filename": "02 - Donnie & Joe Emerson - Baby.mp3"
+    },
+    {
+      "order": 3,
       "artist": "Levek",
       "song": "With a Slow Burn",
       "filename": "03 - Levek - With a Slow Burn.mp3"
-    }, {
+    },
+    {
+      "order": 4,
       "artist": "The Zombies",
       "song": "Tell Her No",
       "filename": "04 - The Zombies - Tell Her No.mp3"
-    }, {
+    },
+    {
+      "order": 5,
       "artist": "Pure Bathing Culture",
       "song": "Silver Shores Lake",
       "filename": "05 - Pure Bathing Culture - Silver Shores Lake.mp3"
-    }, {
+    },
+    {
+      "order": 6,
       "artist": "Naomi and the Boys",
       "song": "As Tears Go By",
       "filename": "06 - Naomi and the Boys - As Tears Go By.mp3"
-    }, {
+    },
+    {
+      "order": 7,
       "artist": "Little Smoke",
       "song": "Jacuzzi Floozies",
       "filename": "07 - Little Smoke - Jacuzzi Floozies.mp3"
-    }, {
-      "artist": "Davey &amp; The Chains",
+    },
+    {
+      "order": 8,
+      "artist": "Davey & The Chains",
       "song": "I Was There",
-      "filename": "08 - Davey &amp; The Chains - I Was There.mp3"
-    }, {
+      "filename": "08 - Davey & The Chains - I Was There.mp3"
+    },
+    {
+      "order": 9,
       "artist": "Pale Sea",
       "song": "My Own Mind",
       "filename": "09 - Pale Sea - My Own Mind.mp3"
-    }, {
+    },
+    {
+      "order": 10,
       "artist": "Tashaki Miyaki",
       "song": "Best Friend",
       "filename": "10 - Tashaki Miyaki - Best Friend.mp3"
-    }, {
+    },
+    {
+      "order": 11,
       "artist": "Seapony",
       "song": "What You Wanted",
       "filename": "11 - Seapony - What You Wanted.mp3"
-    }, {
+    },
+    {
+      "order": 12,
       "artist": "The Spyrals",
       "song": "Lonely Eyes",
       "filename": "12 - The Spyrals - Lonely Eyes.mp3"
-    }, {
+    },
+    {
+      "order": 13,
       "artist": "Grandparents",
       "song": "Golden Isles",
       "filename": "13 - Grandparents - Golden Isles.mp3"
-    }, {
+    },
+    {
+      "order": 14,
       "artist": "Alex Klinger",
       "song": "Le Premier",
       "filename": "14 - Alex Klinger - Le Premier.mp3"
-    }, {
+    },
+    {
+      "order": 15,
       "artist": "Eaves",
       "song": "with out u",
       "filename": "15 - Eaves - with out u.mp3"
-    }, {
+    },
+    {
+      "order": 16,
       "artist": "S O H N",
       "song": "The Wheel",
       "filename": "16 - S O H N - The Wheel.mp3"
-    }, {
+    },
+    {
+      "order": 17,
       "artist": "Major Lazer feat Amber Coffman",
       "song": "Get Free",
       "filename": "17 - Major Lazer feat Amber Coffman - Get Free.mp3"
-    }, {
+    },
+    {
+      "order": 18,
       "artist": "Peaking Lights",
       "song": "Silver Tongues, Soft Whispers",
       "filename": "18 - Peaking Lights - Silver Tongues, Soft Whispers.mp3"

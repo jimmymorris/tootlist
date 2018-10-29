@@ -1,80 +1,118 @@
 {
   "name": "Recrudesce",
   "cover": "/mixtapes/recrudesce/recrudesce.jpg",
+  "filepath": "./mixtapes/recrudesce/",
   "tracks": [
     {
+      "order": 1,
       "artist": "Flights",
       "song": "Pillars",
       "filename": "01 - Flights - Pillars.mp3"
-    }, {
+    },
+    {
+      "order": 2,
       "artist": "Mutual Benefit",
       "song": "Auburn Epitaphs",
       "filename": "02 - Mutual Benefit - Auburn Epitaphs.mp3"
-    }, {
+    },
+    {
+      "order": 3,
       "artist": "Hundred Waters",
-      "song": "Me &amp; Anodyne",
-      "filename": "03 - Hundred Waters - Me &amp; Anodyne.mp3"
-    }, {
+      "song": "Me & Anodyne",
+      "filename": "03 - Hundred Waters - Me & Anodyne.mp3"
+    },
+    {
+      "order": 4,
       "artist": "Daniel Rossen",
       "song": "Saint Nothing",
       "filename": "04 - Daniel Rossen - Saint Nothing.mp3"
-    }, {
+    },
+    {
+      "order": 5,
       "artist": "Wisdom Tooth",
       "song": "Quitting the Circus",
       "filename": "05 - Wisdom Tooth - Quitting the Circus.mp3"
-    }, {
+    },
+    {
+      "order": 6,
       "artist": "Conner Youngblood",
       "song": "Australia",
       "filename": "06 - Conner Youngblood - Australia.mp3"
-    }, {
+    },
+    {
+      "order": 7,
       "artist": "Amen Dunes",
       "song": "Murder Dull Mind",
       "filename": "07 - Amen Dunes - Murder Dull Mind.mp3"
-    }, {
+    },
+    {
+      "order": 8,
       "artist": "Jethro Fox",
       "song": "Before",
       "filename": "08 - Jethro Fox - Before.mp3"
-    }, {
+    },
+    {
+      "order": 9,
       "artist": "Gathered Ghosts",
       "song": "Went To You (feat. Andreanna)",
       "filename": "09 - Gathered Ghosts - Went To You (feat. Andreanna).mp3"
-    }, {
+    },
+    {
+      "order": 10,
       "artist": "Choir of Young Believers",
       "song": "Nye Nummer Et",
       "filename": "10 - Choir of Young Believers - Nye Nummer Et.mp3"
-    }, {
+    },
+    {
+      "order": 11,
       "artist": "Joseph Stallion",
       "song": "New England",
       "filename": "11 - Joseph Stallion - New England.mp3"
-    }, {
+    },
+    {
+      "order": 12,
       "artist": "edleigh",
       "song": "Between Windows",
       "filename": "12 - edleigh - Between Windows.mp3"
-    }, {
+    },
+    {
+      "order": 13,
       "artist": "Grimes",
       "song": "Genesis",
       "filename": "13 - Grimes - Genesis.mp3"
-    }, {
+    },
+    {
+      "order": 14,
       "artist": "Chairlift",
       "song": "Amanaemonesia",
       "filename": "14 - Chairlift - Amanaemonesia.mp3"
-    }, {
+    },
+    {
+      "order": 15,
       "artist": "Orchestre Poly-Rythmo de Cotonou",
       "song": "Se Ba Ho",
       "filename": "15 - Orchestre Poly-Rythmo de Cotonou - Se Ba Ho.mp3"
-    }, {
+    },
+    {
+      "order": 16,
       "artist": "Weekends",
       "song": "Basement Fuzz",
       "filename": "16 - Weekends - Basement Fuzz.mp3"
-    }, {
+    },
+    {
+      "order": 17,
       "artist": "Vinyl Williams",
       "song": "Object Of The Source",
       "filename": "17 - Vinyl Williams - Object Of The Source.mp3"
-    }, {
+    },
+    {
+      "order": 18,
       "artist": "Frankie Rose",
       "song": "Night Swim",
       "filename": "18 - Frankie Rose - Night Swim.mp3"
-    }, {
+    },
+    {
+      "order": 19,
       "artist": "Tycho",
       "song": "Dive",
       "filename": "19 - Tycho - Dive.mp3"

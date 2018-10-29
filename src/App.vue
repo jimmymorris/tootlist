@@ -1,86 +1,66 @@
 <template>
-  <div id="player">
-    <ul>
-      <li v-for="mixtape in mixtapes" :key="mixtape.id">
-        <a href="#" @click="loadMixtape(mixtape.info)">{{ mixtape.name }}</a>
-      </li>
-    </ul>
-    <ul>
-      <li v-for="(track, index) in currentTracks" :key="index">
-        {{ index+1 }} {{ artistSong(track) }}
-      </li>
-    </ul>
-    <img width="150px" height="150px" v-if="currentCover" :src="currentCover" />
-    <!-- <button @click="togglePlayback()">Play</button> -->
+  <div id="player" class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <mixtape-listing />
+      </div>
+      <div class="col">
+        <current-track></current-track>
+        <player-controls></player-controls>
+        <track-listing></track-listing>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import MixtapeListing from '@/components/MixtapeListing.vue';
+import CurrentTrack from '@/components/CurrentTrack.vue';
+import TrackListing from '@/components/TrackListing.vue';
+import PlayerControls from '@/components/PlayerControls.vue';
+
 export default {
   name: 'AppContainer',
-  date() {
+  components: {
+    MixtapeListing,
+    CurrentTrack,
+    TrackListing,
+    PlayerControls,
+  },
+  data() {
     return {
-      sound: null,
-      playStatus: 'Play',
+      runningTime: '00:00',
+      percentdone: '0%',
+    };
+  },
+  created() {
+    this.sound.onended = () => {
+      this.nextTrack();
+    };
+    this.sound.ondurationchange = () => {
+      this.updateDuration();
+    };
+    this.sound.ontimeupdate = () => {
+      this.updateRunningTime();
     };
   },
   computed: {
-    mixtapes() {
-      return this.$store.getters.getMixtapes;
+    sound() {
+      return this.$store.getters.getSound;
     },
-    currentTracks() {
-      return this.$store.getters.getCurrentTrackList;
-    },
-    currentCover() {
-      return this.$store.getters.getCurrentCover;
-    },
-  },
-  mounted() {
-    this.sound = new this.$howl({
-      html5: true,
-      src: [''],
-    });
   },
   methods: {
-    artistSong(info) {
-      return `${info.artist} - ${info.song}`;
+    updateDuration() {
+      this.$store.dispatch('setCurrentTrackDuration', this.sound.duration);
     },
-    togglePlayback() {
-      if (!this.$store.getters.isPlaying) {
-        this.sound.play();
-        this.$store.dispatch('startPlaying');
-      } else {
-        this.sound.pause();
-        this.$store.dispatch('pausePlaying');
-      }
-    },
-    stopPlayback() {
-      this.sound.stop();
-      this.$store.dispatch('stopPlaying');
-    },
-    loadMixtape(file) {
-      if (this.currentMixtape === undefined || this.currentMixtape === null) {
-        fetch(file)
-          .then(stream => stream.json())
-          .then((data) => {
-            this.setActiveMixtape(data);
-          })
-          .catch(error => console.error(error));
-      }
-    },
-    async setActiveMixtape(data) {
-      this.$store.dispatch('setActiveMixtape', data);
-      this.$store.dispatch('setActiveTrackList', data.tracks);
-      this.$store.dispatch('setActiveCover', data.cover);
+    updateRunningTime() {
+      this.$store.dispatch('setCurrentTrackTime', this.sound.currentTime);
     },
   },
 };
 </script>
 
-<style lang="scss" scoped>
-  button {
-    width: 300px;
-    height: 150px;
-    font-size: 30px;
-  }
+<style lang="scss">
+  @import '@/styles/custom-bootstrap.scss';
+  @import '../node_modules/bootstrap/scss/bootstrap.scss';
 </style>
