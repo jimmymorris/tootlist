@@ -1,37 +1,36 @@
 // Override / set color variables
 $white: #fff;
-$black: #000;
-$green: #1BB81D;
-$blue: #008BBC;
+$raven: #413E3D;
+$treetop: #476A30;
+$deep-water: #286692;
 $light-blue: #71CAED;
 $orange: #FF8500;
-$yellow: #ffd925;
-$red: #FF3F2C;
-
+$yellow: #FEC428;
+$red: #C71F2E;
 // Create grayscale
 $gray-dark: #292b2c;
 $gray: #3f3f3f;
 $gray-light: #7e7e7e;
 $gray-lighter: #ededed;
 $gray-lightest: #fafafa;
-
 // Set brand colors
-$primary: $blue;
-$success: $green;
+$primary: $deep-water;
+$success: $treetop;
 $info: $light-blue;
 $warning: $orange;
 $danger: $red;
-
 // Override fonts
-$font-family-sans-serif: 'Poppins', Arial, sans-serif;
-$font-family-monospace: 'Anonymous Pro', Menlo, "Courier New", monospace;
+$font-family-sans-serif: 'Poppins',
+Arial,
+sans-serif;
+$font-family-monospace: 'Anonymous Pro',
+Menlo,
+"Courier New",
+monospace;
 $font-family-base: $font-family-monospace;
-
 $headings-font-weight: 700;
-
 // Set global options
 $enable-shadows: false;
 $enable-gradients: true;
-
 // Typography
 $headings-font-family: $font-family-sans-serif;

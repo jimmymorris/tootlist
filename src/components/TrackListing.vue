@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
+import { mapGetters } from 'vuex';
 import concatArtistSong from '@/mixins/concatArtistSong';
 
 export default {
@@ -31,7 +31,7 @@ export default {
       this.$store.dispatch('setActiveQueue', index).then(() => {
         this.$store.dispatch('startPlaying');
       });
-    }
+    },
   },
 };
 </script>

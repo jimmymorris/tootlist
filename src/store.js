@@ -102,12 +102,12 @@ export default new Vuex.Store({
     setCurrentTrackDuration(state, duration) {
       Vue.set(this.state, 'currentTrackDuration', duration);
     },
-    setNextTrack(state) {
+    setNextTrack() {
       Vue.set(this.state, 'nextTrackOrder', Math.floor(this.state.currentTrack.order));
     },
-    setPrevTrack(state) {
+    setPrevTrack() {
       Vue.set(this.state, 'prevTrackOrder', Math.floor(this.state.currentTrack.order - 2));
-    }
+    },
   },
   actions: {
     pausePlaying({ ...context }) {

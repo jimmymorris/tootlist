@@ -31,7 +31,7 @@ export default {
       'getCurrentTrackList',
     ]),
     disableNext() {
-      return this.getCurrentTrack.order === (this.getCurrentTrackList.length+1);
+      return this.getCurrentTrack.order === (this.getCurrentTrackList.length + 1);
     },
     disablePrevious() {
       return this.getCurrentTrack.order === 1;
@@ -39,8 +39,8 @@ export default {
     playStatus() {
       return this.$store.getters.isPlaying ? 'fas fa-pause' : 'fas fa-play';
     },
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped>

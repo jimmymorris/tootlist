@@ -1,7 +1,7 @@
 <template>
-  <div id="player" class="container-fluid">
+  <div id="player" class="container">
     <div class="row">
-      <div class="col">
+      <div class="col col-sm-12 col-md-3">
         <mixtape-listing />
       </div>
       <div class="col">
@@ -19,6 +19,8 @@ import CurrentTrack from '@/components/CurrentTrack.vue';
 import TrackListing from '@/components/TrackListing.vue';
 import PlayerControls from '@/components/PlayerControls.vue';
 
+import { nextTrack } from '@/mixins/playerControls';
+
 export default {
   name: 'AppContainer',
   components: {
@@ -27,6 +29,7 @@ export default {
     TrackListing,
     PlayerControls,
   },
+  mixins: [nextTrack],
   data() {
     return {
       runningTime: '00:00',
@@ -61,6 +64,4 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '@/styles/custom-bootstrap.scss';
-  @import '../node_modules/bootstrap/scss/bootstrap.scss';
 </style>
