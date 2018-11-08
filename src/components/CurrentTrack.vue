@@ -1,13 +1,12 @@
 <template>
-  <div class="current-track">
-    <h1 v-if="getCurrentTrack.filename">{{ getCurrentTrack.song }}</h1>
-    <h2 v-if="getCurrentTrack.filename">By {{ getCurrentTrack.artist }}</h2>
-    <h3 v-if="getCurrentTrack.filename">
-      ({{ `${runningTime} / ${currentDuration}` }})
-    </h3>
-    <div class="song-progress-wrapper">
-      <div class="song-progress" :style="{width: percentdone}"></div>
+  <div class="row current-track" v-if="getCurrentTrack.filename">
+    <div class="current-track-header">
+      <h2 class="current-song" v-if="getCurrentTrack.filename">{{ getCurrentTrack.song }}</h2>
+      <p class="current-artist" v-if="getCurrentTrack.filename">by {{ getCurrentTrack.artist }}</p>
     </div>
+    <!-- <h3 v-if="getCurrentTrack.filename">
+      ({{ `${runningTime} / ${currentDuration}` }})
+    </h3> -->
   </div>
 </template>
 
@@ -19,8 +18,6 @@ export default {
   name: 'CurrentTrack',
   computed: {
     ...mapGetters([
-      'getCurrentTrackTime',
-      'getCurrentTrackDuration',
       'getCurrentTrack',
     ]),
     runningTime() {
@@ -29,25 +26,37 @@ export default {
     currentDuration() {
       return niceTime(this.getCurrentTrackDuration);
     },
-    percentdone() {
-      return `${(this.getCurrentTrackTime / this.getCurrentTrackDuration) * 100}%`;
-    },
+
   },
 };
 </script>
 
-<style lang="scss" scoped>
-  .song-progress-wrapper {
-    width: 320px;
+<style lang="scss">
+  .mixtape-cover {
+    width: 100%;
+    height: auto;
     display: inline-block;
-    background: #eee;
-    border-radius: 10px;
+  }
+
+  .song-progress-wrapper {
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
   .song-progress {
-    display: block;
     width: 0;
-    height: 5px;
-    background: black;
+    height: 10px;
+    background: $yellow;
+  }
+
+  .current-track-header {
+    padding: 20px;
+  }
+
+  .current-artist {
+    color: $gray-light;
+    font-size: 16px;
+    margin: 0;
   }
 </style>

@@ -1,0 +1,109 @@
+{
+  "name": "Topeka",
+  "cover": "/mixtapes/topeka/topeka.jpg",
+  "filepath": "./mixtapes/topeka/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "The Bird and The Bee",
+      "song": "Don't Stop the Music (Rihanna cover)",
+      "filename": "01 - The Bird and The Bee - Don't Stop the Music (Rihanna).mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Here We Go Magic",
+      "song": "Tunnelvision",
+      "filename": "02 - Here We Go Magic - Tunnelvision.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Red Cortez",
+      "song": "All The Difference",
+      "filename": "03 - Red Cortez - All The Difference.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "The Tallest Man On Earth",
+      "song": "Pistol Dreams",
+      "filename": "04 - The Tallest Man On Earth - Pistol Dreams.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "The Middle East",
+      "song": "Blood",
+      "filename": "05 - The Middle East - Blood.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Elvis Perkins in Dreamland",
+      "song": "Shampoo",
+      "filename": "06 - Elvis Perkins in Dreamland - Shampoo.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Local Natives",
+      "song": "Airplanes",
+      "filename": "07 - Local Natives - Airplanes.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Motel Motel",
+      "song": "Coffee",
+      "filename": "08 - Motel Motel - Coffee.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Marching Band",
+      "song": "Gorgeous Behavior",
+      "filename": "09 - Marching Band - Gorgeous Behavior.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Band of Horses",
+      "song": "No Ones Gonna Love You",
+      "filename": "10 - Band of Horses - No Ones Gonna Love You.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Greg Laswell",
+      "song": "Comes And Goes (In Waves)",
+      "filename": "11 - Greg Laswell - Comes And Goes (In Waves).mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Kings of Convenience",
+      "song": "I'd Rather Dance With You",
+      "filename": "12 - Kings of Convenience - I'd Rather Dance With You.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Yeasayer",
+      "song": "2080",
+      "filename": "13 - Yeasayer - 2080.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "Peter, Bjorn and John",
+      "song": "Let's Call It Off",
+      "filename": "14 - Peter, Bjorn and John - Let's Call It Off.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Alberta Cross",
+      "song": "Old Man Chicago",
+      "filename": "15 - Alberta Cross - Old Man Chicago.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "My Morning Jacket",
+      "song": "Touch Me I'm Going To Scream Part 2",
+      "filename": "16 - My Morning Jacket - Touch Me I'm Going To Scream Part 2.mp3"
+    },
+    {
+      "order": 17,
+      "artist": "Jose Gonzalez",
+      "song": "Crosses",
+      "filename": "17 - Jose Gonzalez - Crosses.mp3"
+    }
+  ]
+}

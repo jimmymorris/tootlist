@@ -1,0 +1,115 @@
+{
+  "name": "Vestige",
+  "cover": "/mixtapes/vestige/vestige.jpg",
+  "filepath": "./mixtapes/vestige/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Javelin",
+      "song": "Gaucho",
+      "filename": "01 Javelin - Gaucho.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Chris Cohen",
+      "song": "Caller No. 99",
+      "filename": "02 Chris Cohen - Caller No. 99.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Temples",
+      "song": "Colours To Life",
+      "filename": "03 Temples - Colours To Life.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "Moodoid",
+      "song": "Je suis la montagne",
+      "filename": "04 Moodoid - Je suis la montagne.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "GEMS",
+      "song": "All I Ever",
+      "filename": "05 GEMS - All I Ever.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Scenic",
+      "song": "Overflow",
+      "filename": "06 Scenic - Overflow.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Psychic Twin",
+      "song": "Dream State",
+      "filename": "07 Psychic Twin - Dream State.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Handbook",
+      "song": "Sweet Coral",
+      "filename": "08 Handbook - Sweet Coral.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Celestial Shore",
+      "song": "Die For Us",
+      "filename": "09 Celestial Shore - Die For Us.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Jacco Gardner",
+      "song": "Clear the Air",
+      "filename": "10 Jacco Gardner - Clear the Air.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Courtney Barnett",
+      "song": "Avant Gardener",
+      "filename": "11 Courtney Barnett - Avant Gardener.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Alvvays",
+      "song": "Adult Diversions",
+      "filename": "12 Alvvays - Adult Diversions.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "John Krautner",
+      "song": "Northwood",
+      "filename": "13 John Krautner - Northwood.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "The Preatures",
+      "song": "Is This How You Feel",
+      "filename": "14 The Preatures - Is This How You Feel.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Salvia Plath",
+      "song": "This American Life",
+      "filename": "15 Salvia Plath - This American Life.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "Mutual Benefit",
+      "song": "Golden Wake",
+      "filename": "16 Mutual Benefit - Golden Wake.mp3"
+    },
+    {
+      "order": 17,
+      "artist": "Brother Dan",
+      "song": "For You",
+      "filename": "17 Brother Dan - For You.mp3"
+    },
+    {
+      "order": 18,
+      "artist": "Kyu Sakamoto",
+      "song": "Sukiyaki",
+      "filename": "18 Kyu Sakamoto - Sukiyaki.mp3"
+    }
+  ]
+}

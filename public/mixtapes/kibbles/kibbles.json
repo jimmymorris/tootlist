@@ -1,0 +1,115 @@
+{
+  "name": "Kibbles",
+  "cover": "/mixtapes/kibbles/kibbles.jpg",
+  "filepath": "./mixtapes/kibbles/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Julianna Barwick",
+      "song": "Anjos",
+      "filename": "01 - Julianna Barwick - Anjos.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Beach Fossils",
+      "song": "Golden Age",
+      "filename": "02 - Beach Fossils - Golden Age.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Angus & Julia Stone",
+      "song": "Big Jet Plane",
+      "filename": "03 - Angus & Julia Stone - Big Jet Plane.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "Wampire",
+      "song": "Wooby Dooby",
+      "filename": "04 - Wampire - Wooby Dooby.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Mantles",
+      "song": "Trust",
+      "filename": "05 - Mantles - Trust.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Norse Horse",
+      "song": "Sleepers",
+      "filename": "06 - Norse Horse - Sleepers.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Au",
+      "song": "RR vs. D",
+      "filename": "07 - Au - RR vs. D.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Best Coast",
+      "song": "Our Deal",
+      "filename": "08 - Best Coast - Our Deal.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Tame Impala",
+      "song": "Sundown Syndrome",
+      "filename": "09 - Tame Impala - Sundown Syndrome.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Teen Daze",
+      "song": "Shine On, You Crazy White Cap",
+      "filename": "10 - Teen Daze - Shine On, You Crazy White Cap.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Navago Bixby",
+      "song": "Many Ways",
+      "filename": "11 - Navago Bixby - Many Ways.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Lands & Peoples",
+      "song": "In Living Colour",
+      "filename": "12 - Lands & Peoples - In Living Colour.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Javelin",
+      "song": "We Ah Wi",
+      "filename": "13 - Javelin - We Ah Wi.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "Holiday Shores",
+      "song": "Reruns",
+      "filename": "14 - Holiday Shores - Reruns.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "MillionYoung",
+      "song": "Hammock",
+      "filename": "15 - MillionYoung - Hammock.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "White Hinterland",
+      "song": "No Logic (Alan Wilkis Remix)",
+      "filename": "16 - White Hinterland - No Logic (Alan Wilkis Remix).mp3"
+    },
+    {
+      "order": 17,
+      "artist": "Levek",
+      "song": "Heave Ho",
+      "filename": "17 - Levek - Heave Ho.mp3"
+    },
+    {
+      "order": 18,
+      "artist": "Mos Def",
+      "song": "Auditiorium Ft. Slick Rick",
+      "filename": "18 - Mos Def - Auditiorium Ft. Slick Rick.mp3"
+    }
+  ]
+}

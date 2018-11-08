@@ -1,0 +1,115 @@
+{
+  "name": "No Rush",
+  "cover": "/mixtapes/no-rush/no-rush.jpg",
+  "filepath": "./mixtapes/no-rush/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Seekae",
+      "song": "Void",
+      "filename": "01 - Seekae - Void.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Julian Lynch",
+      "song": "Terra",
+      "filename": "02 - Julian Lynch - Terra.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Deradoorian",
+      "song": "Marichka",
+      "filename": "03 - Deradoorian - Marichka.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "Lia Ices",
+      "song": "Little Marriage",
+      "filename": "04 - Lia Ices - Little Marriage.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Zu Shapes",
+      "song": "Speak in Sheets",
+      "filename": "05 - Zu Shapes - Speak in Sheets.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Algodon Egipcio",
+      "song": "Weird Feelings (Male Bonding cover)",
+      "filename": "06 - Algodon Egipcio - Weird Feelings (Male Bonding cover).mp3"
+    },
+    {
+      "order": 7,
+      "artist": "d'Eon",
+      "song": "Transparency",
+      "filename": "07 - d'Eon - Transparency.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Dent Sweat",
+      "song": "I Don't Mind",
+      "filename": "08 - Dent Sweat - I Don't Mind.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Billy Comfort",
+      "song": "Wonder of We feat. Steffaloo",
+      "filename": "09 - Billy Comfort - Wonder of We feat. Steffaloo.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Echo Shade",
+      "song": "Fluorescent Nights",
+      "filename": "10 - Echo Shade - Fluorescent Nights.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Yalls",
+      "song": "Runs In The Family",
+      "filename": "11 - Yalls - Runs In The Family.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Sea Pinks",
+      "song": "Peripheral Vision",
+      "filename": "12 - Sea Pinks - Peripheral Vision.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Peaking Lights",
+      "song": "Key Sparrow",
+      "filename": "13 - Peaking Lights - Key Sparrow.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "We Are Trees",
+      "song": "Teenage Heartbreak",
+      "filename": "14 - We Are Trees - Teenage Heartbreak.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Loud Valley",
+      "song": "Daytona Beach",
+      "filename": "15 - Loud Valley - Daytona Beach.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "That Ghost",
+      "song": "To Like You",
+      "filename": "16 - That Ghost - To Like You.mp3"
+    },
+    {
+      "order": 17,
+      "artist": "Melted Toys",
+      "song": "Come On",
+      "filename": "17 - Melted Toys - Come On.mp3"
+    },
+    {
+      "order": 18,
+      "artist": "Julianna Barwick",
+      "song": "Prizewinning",
+      "filename": "18 - Julianna Barwick - Prizewinning.mp3"
+    }
+  ]
+}

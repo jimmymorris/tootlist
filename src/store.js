@@ -19,20 +19,69 @@ export default new Vuex.Store({
     prevTrackOrder: 0,
     repeatOne: false,
     repeatAll: false,
+    showListing: true,
     mixtapes: [{
       id: 0,
+      name: 'Vestige',
+      info: '/mixtapes/vestige/vestige.json',
+      cover: '/mixtapes/vestige/vestige.jpg',
+    }, {
+      id: 1,
       name: 'Estivated',
       info: '/mixtapes/estivated/estivated.json',
       cover: '/mixtapes/estivated/estivated.jpg',
     }, {
-      id: 1,
+      id: 2,
       name: 'Recrudesce',
       info: '/mixtapes/recrudesce/recrudesce.json',
       cover: '/mixtapes/recrudesce/recrudesce.jpg',
+    }, {
+      id: 3,
+      name: 'Whitehurst Frwy',
+      info: '/mixtapes/whitehurst-frwy/whitehurst-frwy.json',
+      cover: '/mixtapes/whitehurst-frwy/whitehurst-frwy.jpg',
+    }, {
+      id: 4,
+      name: 'No Rush',
+      info: '/mixtapes/no-rush/no-rush.json',
+      cover: '/mixtapes/no-rush/no-rush.jpg',
+    }, {
+      id: 5,
+      name: 'Bearhaus',
+      info: '/mixtapes/bearhaus/bearhaus.json',
+      cover: '/mixtapes/bearhaus/bearhaus.jpg',
+    }, {
+      id: 6,
+      name: 'Kibbles',
+      info: '/mixtapes/kibbles/kibbles.json',
+      cover: '/mixtapes/kibbles/kibbles.jpg',
+    }, {
+      id: 7,
+      name: 'Feet Above Water',
+      info: '/mixtapes/feet-above-water/feet-above-water.json',
+      cover: '/mixtapes/feet-above-water/feet-above-water.jpg',
+    }, {
+      id: 8,
+      name: 'Arlington',
+      info: '/mixtapes/arlington/arlington.json',
+      cover: '/mixtapes/arlington/arlington.jpg',
+    }, {
+      id: 9,
+      name: 'Topeka',
+      info: '/mixtapes/topeka/topeka.json',
+      cover: '/mixtapes/topeka/topeka.jpg',
+    }, {
+      id: 10,
+      name: 'Piedmont',
+      info: '/mixtapes/piedmont/piedmont.json',
+      cover: '/mixtapes/piedmont/piedmont.jpg',
     }],
   },
   getters: {
+    showListing: state => state.showListing,
+    showPlayer: state => state.showPlayer,
     isPlaying: state => state.playing,
+    isMixtapeLoaded: state => Object.keys(state.currentMixtape).length,
     repeatOne: state => state.repeatOne,
     repeatAll: state => state.repeatAll,
     getMixtapes: state => state.mixtapes,
@@ -108,6 +157,12 @@ export default new Vuex.Store({
     setPrevTrack() {
       Vue.set(this.state, 'prevTrackOrder', Math.floor(this.state.currentTrack.order - 2));
     },
+    toggleShowListing() {
+      Vue.set(this.state, 'showListing', !this.state.showListing);
+    },
+    toggleShowPlayer() {
+      Vue.set(this.state, 'showPlayer', !this.state.showPlayer);
+    },
   },
   actions: {
     pausePlaying({ ...context }) {
@@ -148,6 +203,12 @@ export default new Vuex.Store({
     },
     setPrevTrack({ ...context }) {
       context.commit('setPrevTrack');
+    },
+    toggleShowListing({ ...context }) {
+      context.commit('toggleShowListing');
+    },
+    toggleShowPlayer({ ...context }) {
+      context.commit('toggleShowPlayer');
     },
   },
 });

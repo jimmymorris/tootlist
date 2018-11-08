@@ -1,0 +1,115 @@
+{
+  "name": "Bearhaus",
+  "cover": "/mixtapes/bearhaus/bearhaus.jpg",
+  "filepath": "./mixtapes/bearhaus/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Craft Spells",
+      "song": "Party Talk",
+      "filename": "01 - Craft Spells - Party Talk.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Lord Huron",
+      "song": "Mighty",
+      "filename": "02 - Lord Huron - Mighty.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Young Galaxy",
+      "song": "Peripheral Visionaries",
+      "filename": "03 - Young Galaxy - Peripheral Visionaries.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "White Denim",
+      "song": "Shy Billy",
+      "filename": "04 - White Denim - Shy Billy.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Sunset",
+      "song": "Moonlight",
+      "filename": "05 - Sunset - Moonlight.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Figurines",
+      "song": "Hanging from Above",
+      "filename": "06 - Figurines - Hanging from Above.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Fredrik",
+      "song": "White on White",
+      "filename": "07 - Fredrik - White on White.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Chrome Sparks",
+      "song": "I'll Be Wait For Sadness Comes Along",
+      "filename": "08 - Chrome Sparks - I'll Be Wait For Sadness Comes Along.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Brothertiger",
+      "song": "Wind at My Back",
+      "filename": "09 - Brothertiger - Wind at My Back.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Casa del Mirto",
+      "song": "Jacket and Shoes",
+      "filename": "10 - Casa del Mirto - Jacket and Shoes.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Young Mountana",
+      "song": "Sacré Cool",
+      "filename": "11 - Young Mountana - Sacré Cool.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Painted Palms",
+      "song": "Falling Asleep",
+      "filename": "12 - Painted Palms - Falling Asleep.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Panda Bear",
+      "song": "Alsatian Darn",
+      "filename": "13 - Panda Bear - Alsatian Darn.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "Secret Mountains",
+      "song": "Rejoice",
+      "filename": "14 - Secret Mountains - Rejoice.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Sister Nancy",
+      "song": "Bam Bam",
+      "filename": "15 - Sister Nancy - Bam Bam.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "Lower Dens",
+      "song": "Hospice Gates",
+      "filename": "16 - Lower Dens - Hospice Gates.mp3"
+    },
+    {
+      "order": 17,
+      "artist": "Benoit Pioulard",
+      "song": "Lasted",
+      "filename": "17 - Benoit Pioulard - Lasted.mp3"
+    },
+    {
+      "order": 18,
+      "artist": "We Are Each Other",
+      "song": "This Is Not Our Home",
+      "filename": "18 - We Are Each Other - This Is Not Our Home.mp3"
+    }
+  ]
+}

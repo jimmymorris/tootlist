@@ -1,15 +1,15 @@
 <template>
   <div class="mixtape">
-    <img width="150px" height="150px" v-if="getCurrentCover" :src="getCurrentCover" />
-    <ul>
-      <li v-for="(track, index) in getCurrentTrackList" :key="index">
+    <ol class="tracks">
+      <li v-for="(track, index) in getCurrentTrackList" :key="index" class="track">
         <a
           href="#"
           @click.prevent="setTrack(index)">
-            {{ index+1 }} - {{ concatArtistSong(track) }}
+            <span class="track-index">{{ track.order }}</span>
+            <span class="track-info">{{ concatArtistSong(track) }}</span>
         </a>
       </li>
-    </ul>
+    </ol>
   </div>
 </template>
 
@@ -23,7 +23,6 @@ export default {
   computed: {
     ...mapGetters([
       'getCurrentTrackList',
-      'getCurrentCover',
     ]),
   },
   methods: {
@@ -35,3 +34,29 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+  .tracks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .track {
+    border-top: 1px solid $deep-water;
+  }
+
+  .track a {
+    display: flex;
+    align-items: center;
+  }
+
+  .track-index {
+    flex: 0 0 35px;
+    text-align: center;
+  }
+
+  .track-info {
+    padding: 18px 7px;
+  }
+</style>

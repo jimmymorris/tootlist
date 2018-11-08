@@ -1,0 +1,103 @@
+{
+  "name": "Piedmont",
+  "cover": "/mixtapes/piedmont/piedmont.jpg",
+  "filepath": "./mixtapes/piedmont/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Zach Ashton",
+      "song": "Five Minutes to Midnight",
+      "filename": "01 - Zach Ashton - Five Minutes to Midnight.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Fink",
+      "song": "This Is The Thing",
+      "filename": "02 - Fink - This Is The Thing.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Mason Jennings",
+      "song": "Ballad For My One True Love",
+      "filename": "03 - Mason Jennings -  Ballad For My One True Love.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "The Deep Dark Woods",
+      "song": "All The Money I Had Is Gone",
+      "filename": "04 - The Deep Dark Woods - All The Money I Had Is Gone.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Nick Drake",
+      "song": "Place to Be",
+      "filename": "05 - Nick Drake - Place to Be.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Feist & Ben Gibbard",
+      "song": "Train Song",
+      "filename": "06 - Feist & Ben Gibbard - Train Song.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Bon Iver",
+      "song": "Skinny Love",
+      "filename": "07 - Bon Iver - Skinny Love.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Beach House",
+      "song": "Gila",
+      "filename": "08 - Beach House - Gila.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Dawn Landes",
+      "song": "Straight Lines",
+      "filename": "09 - Dawn Landes - Straight Lines.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Frontier Ruckus",
+      "song": "Orion Town",
+      "filename": "10 - Frontier Ruckus - Orion Town.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Mike Doughty",
+      "song": "White Lexus",
+      "filename": "11 - Mike Doughty - White Lexus.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Erik Blood",
+      "song": "Better Days",
+      "filename": "12 - Erik Blood - Better Days.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Alex Sam",
+      "song": "Land Of The Free",
+      "filename": "13 - Alex Sam - Land Of The Free.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "The Damnwells",
+      "song": "Golden Days",
+      "filename": "14 - The Damnwells - Golden Days.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Blitzen Trapper",
+      "song": "Black River Killer",
+      "filename": "15 - Blitzen Trapper - Black River Killer.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "Martin Sexton",
+      "song": "Black Sheep (live)",
+      "filename": "16 - Martin Sexton - Black Sheep (live).mp3"
+    }
+  ]
+}

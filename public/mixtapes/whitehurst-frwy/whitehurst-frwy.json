@@ -1,0 +1,133 @@
+{
+  "name": "Whitehurst Frwy",
+  "cover": "/mixtapes/whitehurst-frwy/whitehurst-frwy.jpg",
+  "filepath": "./mixtapes/whitehurst-frwy/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "The Spinner",
+      "song": "I'll Be Around",
+      "filename": "01 - The Spinner - I'll Be Around.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Dreams",
+      "song": "Feelings 4 U",
+      "filename": "02 - Dreams - Feelings 4 U.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Field Trips",
+      "song": "uUu",
+      "filename": "03 - Field Trips - uUu.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "Spectrals",
+      "song": "Get a Grip",
+      "filename": "04 - Spectrals - Get a Grip.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Vacationer",
+      "song": "Trip",
+      "filename": "05 - Vacationer - Trip.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "Oregon Bike Trails",
+      "song": "Cayucas",
+      "filename": "06 - Oregon Bike Trails - Cayucas.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Way Yes",
+      "song": "Walkability",
+      "filename": "07 - Way Yes - Walkability.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Pinkunoizu",
+      "song": "Time Is Like A Melody",
+      "filename": "08 - Pinkunoizu - Time Is Like A Melody.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Ricky Eat Acid + Arrange",
+      "song": "P S L W",
+      "filename": "09 - Ricky Eat Acid + Arrange - P S L W.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Dark Dark Dark",
+      "song": "Daydreaming",
+      "filename": "10 - Dark Dark Dark - Daydreaming.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Dead Mellotron",
+      "song": "Untitled",
+      "filename": "11 - Dead Mellotron - Untitled.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "The Moor",
+      "song": "Warm Winter",
+      "filename": "12 - The Moor - Warm Winter.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Schoolcraft",
+      "song": "Here In The Dark",
+      "filename": "13 - Schoolcraft - Here In The Dark.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "Jape",
+      "song": "The Oldest Mind",
+      "filename": "14 - Jape - The Oldest Mind.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Hazy Mountain",
+      "song": "You",
+      "filename": "15 - Hazy Mountain - You.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "CSLSX",
+      "song": "Keep On Shining",
+      "filename": "16 - CSLSX - Keep On Shining.mp3"
+    },
+    {
+      "order": 17,
+      "artist": "Tycho",
+      "song": "Dive",
+      "filename": "17 - Tycho - Dive.mp3"
+    },
+    {
+      "order": 18,
+      "artist": "Grimes",
+      "song": "Oblivion",
+      "filename": "18 - Grimes - Oblivion.mp3"
+    },
+    {
+      "order": 19,
+      "artist": "X-Ray Fiends",
+      "song": "Ray Gun Blues",
+      "filename": "19 - X-Ray Fiends - Ray Gun Blues.mp3"
+    },
+    {
+      "order": 20,
+      "artist": "ABADABDA",
+      "song": "Indiana",
+      "filename": "20 - ABADABDA - Indiana.mp3"
+    },
+    {
+      "order": 21,
+      "artist": "JRG",
+      "song": "Going Away",
+      "filename": "21 - JRG - Going Away.mp3"
+    }
+  ]
+}

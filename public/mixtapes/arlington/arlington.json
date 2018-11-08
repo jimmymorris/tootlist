@@ -1,0 +1,109 @@
+{
+  "name": "Arlington",
+  "cover": "/mixtapes/arlington/arlington.jpg",
+  "filepath": "./mixtapes/arlington/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Animal Collective",
+      "song": "Brothersport",
+      "filename": "01 - Animal Collective - Brothersport.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "The Von Bondies",
+      "song": "Pale Bride",
+      "filename": "02 - The Von Bondies - Pale Bride.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Uffie",
+      "song": "Pop The Glock",
+      "filename": "03 - Uffie - Pop The Glock.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "Plants And Animals",
+      "song": "Feedback In The Field",
+      "filename": "04 - Plants And Animals - Feedback In The Field.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Anamanaguchi",
+      "song": "Dawn Metropolis",
+      "filename": "05 - Anamanaguchi - Dawn Metropolis.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "N.A.S.A.",
+      "song": "Gifted ft. Kanye West, Santogold & Lykke Li",
+      "filename": "06 - N.A.S.A. - Gifted ft. Kanye West, Santogold & Lykke Li.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "Funeral Party",
+      "song": "Carwars",
+      "filename": "07 - Funeral Party - Carwars.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Sam Sparro",
+      "song": "Black And Gold",
+      "filename": "08 - Sam Sparro - Black And Gold.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Alaska In Winter",
+      "song": "Berlin",
+      "filename": "09 - Alaska In Winter - Berlin.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Friendly Fires",
+      "song": "Paris (Aeroplane Remix) feat. Au Revoire Simone",
+      "filename": "10 - Friendly Fires feat. Au Revoire Simone - Paris (Aeroplane Remix).mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Lo-Fi Fnk",
+      "song": "Want U",
+      "filename": "11 - Lo-Fi Fnk - Want U.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "Ratatat",
+      "song": "Wildcat",
+      "filename": "12 - Ratatat - Wildcat.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "The Dodos",
+      "song": "Fools",
+      "filename": "13 - The Dodos - Fools.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "The Whitest Boy Alive",
+      "song": "Burning",
+      "filename": "14 - The Whitest Boy Alive - Burning.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Citizen Cope",
+      "song": "Comin' Back",
+      "filename": "15 - Citizen Cope - Comin' Back.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "Chromeo",
+      "song": "Bonafied Lovin' (Tough Guys)",
+      "filename": "16 - Chromeo - Bonafied Lovin' (Tough Guys).mp3"
+    },
+    {
+      "order": 17,
+      "artist": "The Faint",
+      "song": "The Geeks Were Right",
+      "filename": "17 - The Faint - The Geeks Were Right.mp3"
+    }
+  ]
+}

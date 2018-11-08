@@ -1,0 +1,109 @@
+{
+  "name": "Feet Above Water",
+  "cover": "/mixtapes/feet-above-water/feet-above-water.jpg",
+  "filepath": "./mixtapes/feet-above-water/",
+  "tracks": [
+    {
+      "order": 1,
+      "artist": "Bibio",
+      "song": "Lovers Carving",
+      "filename": "01 - Bibio - Lovers Carving.mp3"
+    },
+    {
+      "order": 2,
+      "artist": "Le Loup",
+      "song": "Beach Town",
+      "filename": "02 - Le Loup - Beach Town.mp3"
+    },
+    {
+      "order": 3,
+      "artist": "Fool's Gold",
+      "song": "Surprise Hotel",
+      "filename": "03 - Fool's Gold - Surprise Hotel.mp3"
+    },
+    {
+      "order": 4,
+      "artist": "Washed Out",
+      "song": "Belong",
+      "filename": "04 - Washed Out - Belong.mp3"
+    },
+    {
+      "order": 5,
+      "artist": "Wild Nothing",
+      "song": "Cloudbusting",
+      "filename": "05 - Wild Nothing - Cloudbusting.mp3"
+    },
+    {
+      "order": 6,
+      "artist": "The Radio Dept.",
+      "song": "David",
+      "filename": "06 - The Radio Dept. - David.mp3"
+    },
+    {
+      "order": 7,
+      "artist": "El Perro Del Mar",
+      "song": "Change of Heart",
+      "filename": "07 - El Perro Del Mar - Change of Heart.mp3"
+    },
+    {
+      "order": 8,
+      "artist": "Midlake",
+      "song": "Roscoe",
+      "filename": "08 - Midlake - Roscoe.mp3"
+    },
+    {
+      "order": 9,
+      "artist": "Princeton",
+      "song": "Calypso Gold",
+      "filename": "09 - Princeton - Calypso Gold.mp3"
+    },
+    {
+      "order": 10,
+      "artist": "Cloud Control",
+      "song": "Gold Canary",
+      "filename": "10 - Cloud Control - Gold Canary.mp3"
+    },
+    {
+      "order": 11,
+      "artist": "Real Estate",
+      "song": "Fake Blues",
+      "filename": "11 - Real Estate - Fake Blues.mp3"
+    },
+    {
+      "order": 12,
+      "artist": "The Sweet Serenades",
+      "song": "On My Way",
+      "filename": "12 - The Sweet Serenades - On My Way.mp3"
+    },
+    {
+      "order": 13,
+      "artist": "Emanuel and the Fear - The Rain Becomes",
+      "song": "The Rain Becomes The Clouds",
+      "filename": "13 - Emanuel and the Fear - The Rain Becomes The Clouds.mp3"
+    },
+    {
+      "order": 14,
+      "artist": "Edward Sharpe & The Magnetic Zeros",
+      "song": "Home",
+      "filename": "14 - Edward Sharpe & The Magnetic Zeros - Home.mp3"
+    },
+    {
+      "order": 15,
+      "artist": "Kurt Vile",
+      "song": "He's Alright",
+      "filename": "15 - Kurt Vile - Hes Alright.mp3"
+    },
+    {
+      "order": 16,
+      "artist": "Jason Boesel - Hand",
+      "song": "Hand Of God",
+      "filename": "16 - Jason Boesel - Hand Of God.mp3"
+    },
+    {
+      "order": 17,
+      "artist": "The Nurses",
+      "song": "Apples Acre",
+      "filename": "17 - The Nurses - Apples Acre.mp3"
+    }
+  ]
+}

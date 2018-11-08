@@ -1,18 +1,18 @@
 <template>
   <div class="mixtape-listing">
-    <h2>Playlists</h2>
-    <ul>
+    <h1 class="mixtape-listing-header">Playlists</h1>
+    <ul class="row no-gutters">
       <li
         v-for="mixtape in getMixtapes"
         :key="mixtape.id"
-        class="mixtape">
+        class="mixtape col-xs-12 col-sm-6 col-lg-4">
           <a
             href="#"
             @click.prevent="loadMixtape(mixtape.info)"
             :title="mixtape.name"
-            :class="{ 'active-mixtape': mixtape.name === active }"
             class="play-mixtape">
               {{mixtape.name}}
+              <i class="fas fa-volume-up" v-if="mixtape.name === active"></i>
           </a>
       </li>
     </ul>
@@ -31,9 +31,8 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'getMixtapes'
+      'getMixtapes',
     ]),
-
   },
   methods: {
     loadMixtape(file) {
@@ -42,6 +41,7 @@ export default {
         .then((data) => {
           this.$store.dispatch('setActiveMixtape', data);
           this.active = data.name;
+          this.$store.dispatch('toggleShowListing');
         })
         .catch(error => console.error(error));
     },
@@ -49,32 +49,68 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-  @import '@/styles/custom-bootstrap.scss';
-
+<style lang="scss">
   .mixtape-listing {
-    height: 100%;
-    padding: 30px;
-    
+    display: inline-block;
+    padding: 10px 15px;
+
     @include media-breakpoint-up(md) {
-      padding: 30px 0;
+      padding: 45px;
     }
+
     ul {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
       list-style: none;
       margin: 0;
       padding: 0;
     }
   }
 
-  .play-mixtape {
-    display: block;
-    padding: 5px 15px;
-    margin: 10px 0;
-    border-left: 4px solid transparent;
-    font-weight: bold;
+  .mixtape-listing-header {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: $white;
+
+    @include media-breakpoint-up(md) {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
   }
 
-  .active-mixtape {
-    border-left-color: $orange;
+  .mixtape {
+    margin: 5px 0;
   }
+
+  .play-mixtape {
+    display: block;
+    padding: 5px 0;
+    color: $white;
+    font-size: 1rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+      margin: {
+        top: 5px;
+        bottom: 5px;
+      };
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.75rem;
+      margin: {
+        top: 15px;
+        bottom: 15px;
+      };
+    }
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+
 </style>
