@@ -4,9 +4,10 @@
       <li v-for="(track, index) in getCurrentTrackList" :key="index" class="track">
         <a
           href="#"
+          :class="{ playing: (index+1) === getCurrentTrack.order }"
           @click.prevent="setTrack(index)">
-            <span class="track-index">{{ track.order }}</span>
-            <span class="track-info">{{ concatArtistSong(track) }}</span>
+            <span class="track-song">{{ track.song }}</span>
+            <span class="track-artist">{{ track.artist }}</span>
         </a>
       </li>
     </ol>
@@ -23,6 +24,7 @@ export default {
   computed: {
     ...mapGetters([
       'getCurrentTrackList',
+      'getCurrentTrack',
     ]),
   },
   methods: {
@@ -47,16 +49,28 @@ export default {
   }
 
   .track a {
-    display: flex;
-    align-items: center;
+    display: block;
+    width: 100%;
+    padding: 15px;
   }
 
-  .track-index {
-    flex: 0 0 35px;
-    text-align: center;
+  .track-song {
+    font: {
+      size: rem-calc(16px);
+      weight: 700;
+    };
+    display: block;
+    color: $raven;
+    transition: 100ms color ease;
   }
 
-  .track-info {
-    padding: 18px 7px;
+  .track-artist {
+    font-size: 0.8125rem;
+    color: $gray-light;
   }
+
+  .playing .track-song {
+    color: $red;
+  }
+
 </style>

@@ -49,7 +49,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin: 0 0 30px;
   }
 
   .global-control {
@@ -65,12 +65,11 @@ export default {
       width: 90px;
       height: 90px;
       border-radius: 100%;
-      z-index: 5;
+      text-align: center;
     }
 
     .next, .previous {
       margin: 0 20px;
     }
   }
-
 </style>

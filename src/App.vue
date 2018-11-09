@@ -2,7 +2,9 @@
   <div id="player" class="container-fluid">
     <div class="color-gutter">
       <i class="fas fa-music"></i>
-      <button class="show-playlist" v-if="isMixtapeLoaded" @click.prevent="toggleShowListing">{{viewHideText}} Playlists</button>
+      <button class="show-playlist" v-if="isMixtapeLoaded" @click.prevent="toggleShowListing">
+        {{viewHideText}} Playlists
+      </button>
     </div>
     <div class="mixtape-listing-wrapper" :class="{ 'show-mixtape-listing': showListing }">
       <mixtape-listing />

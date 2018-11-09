@@ -40,13 +40,13 @@ export default {
 
   .song-progress-wrapper {
     width: 100%;
-    height: 100%;
+    height: 10px;
     display: block;
   }
 
   .song-progress {
     width: 0;
-    height: 10px;
+    height: 100%;
     background: $yellow;
   }
 
@@ -56,7 +56,7 @@ export default {
 
   .current-artist {
     color: $gray-light;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0;
   }
 </style>
