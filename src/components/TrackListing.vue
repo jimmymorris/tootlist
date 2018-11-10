@@ -8,6 +8,7 @@
           @click.prevent="setTrack(index)">
             <span class="track-song">{{ track.song }}</span>
             <span class="track-artist">{{ track.artist }}</span>
+            <i class="track-play-button fas fa-play fa-fw"></i>
         </a>
       </li>
     </ol>
@@ -16,15 +17,14 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import concatArtistSong from '@/mixins/concatArtistSong';
 
 export default {
   name: 'CurrentMixtape',
-  mixins: [concatArtistSong],
   computed: {
     ...mapGetters([
       'getCurrentTrackList',
       'getCurrentTrack',
+      'getCurrentMixtape',
     ]),
   },
   methods: {
@@ -51,16 +51,17 @@ export default {
   .track a {
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 15px 75px 15px 15px;
+    color: $deep-water;
+    position: relative;
   }
 
   .track-song {
     font: {
       size: rem-calc(16px);
-      weight: 700;
+      weight: bold;
     };
     display: block;
-    color: $raven;
     transition: 100ms color ease;
   }
 
@@ -69,8 +70,27 @@ export default {
     color: $gray-light;
   }
 
-  .playing .track-song {
-    color: $red;
+  .track-play-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: $white;
+    background: $deep-water;
+    width: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
   }
+
+  .playing {
+    .track-song {
+      color: $red;
+    }
+
+    .track-play-button {
+      background: $red;
+    }
+  }
+
 
 </style>

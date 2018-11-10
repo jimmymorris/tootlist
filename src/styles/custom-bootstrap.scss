@@ -24,14 +24,14 @@ $danger: $red;
 
 // Override fonts
 $font-family-sans-serif: 'Open Sans', Arial, sans-serif;
-
+$font-family-serif: 'Merriweather', Georgia, Times, serif;
 // Set global options
 $enable-shadows: false;
 $enable-gradients: true;
 
 // Typography
-$headings-font-family: 'Roboto', sans-serif;
-$headings-font-weight: 700;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 900;
 
 // Anchors
 $link-hover-decoration: none;

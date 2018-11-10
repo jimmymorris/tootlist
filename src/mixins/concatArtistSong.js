@@ -1,5 +1,7 @@
 export default {
   methods: {
-    concatArtistSong: track => `${track.artist} - ${track.song}`,
+    concatArtistSong: (track) => {
+      return `${track.artist} - ${track.song}`;
+    },
   },
 };

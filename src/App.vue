@@ -110,6 +110,7 @@ export default {
     top: 0;
     left: 0;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     transform: translateX(-100vw);
     transition: 750ms transform cubic-bezier(0.86, 0, 0.07, 1);
 

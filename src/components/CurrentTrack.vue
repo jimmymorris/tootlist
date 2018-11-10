@@ -1,12 +1,10 @@
 <template>
-  <div class="row current-track" v-if="getCurrentTrack.filename">
+  <div class="current-track" v-if="currentTrack.filename">
+    <span class="running-time">{{ runningTime }}</span>
     <div class="current-track-header">
-      <h2 class="current-song" v-if="getCurrentTrack.filename">{{ getCurrentTrack.song }}</h2>
-      <p class="current-artist" v-if="getCurrentTrack.filename">by {{ getCurrentTrack.artist }}</p>
+      <h2 class="current-song" v-if="currentTrack.filename">{{ currentTrack.song }}</h2>
+      <p class="current-artist" v-if="currentTrack.filename">by {{ currentTrack.artist }}</p>
     </div>
-    <!-- <h3 v-if="getCurrentTrack.filename">
-      ({{ `${runningTime} / ${currentDuration}` }})
-    </h3> -->
   </div>
 </template>
 
@@ -17,25 +15,24 @@ import niceTime from '@/helpers';
 export default {
   name: 'CurrentTrack',
   computed: {
-    ...mapGetters([
-      'getCurrentTrack',
-    ]),
+    ...mapGetters({
+      rawRunningTime: 'getCurrentTrackTime',
+      currentTrack: 'getCurrentTrack',
+      rawDuration: 'getCurrentTrackTime',
+    }),
     runningTime() {
-      return niceTime(this.getCurrentTrackTime);
+      return niceTime(this.rawRunningTime);
     },
-    currentDuration() {
-      return niceTime(this.getCurrentTrackDuration);
-    },
-
+    duration() {
+      return niceTime(this.rawDuration)
+    }
   },
 };
 </script>
 
 <style lang="scss">
-  .mixtape-cover {
-    width: 100%;
-    height: auto;
-    display: inline-block;
+  .current-track {
+    position: relative;
   }
 
   .song-progress-wrapper {
@@ -51,12 +48,34 @@ export default {
   }
 
   .current-track-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+    height: 225px;
+    position: relative;
+    font: {
+      family: $font-family-serif;
+      weight: 900;
+    };
   }
 
   .current-artist {
-    color: $gray-light;
-    font-size: 1rem;
+    color: $red;
+    font-size: rem-calc(20px);
     margin: 0;
+  }
+
+  .running-time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    color: $gray-lighter;
+    font: {
+      weight: 700;
+      size: 10rem;
+    }
   }
 </style>

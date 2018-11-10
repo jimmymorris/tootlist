@@ -1,6 +1,6 @@
 <template>
   <div class="mixtape-listing">
-    <h1 class="mixtape-listing-header">Playlists</h1>
+    <h1 class="mixtape-listing-header">Mixtapes</h1>
     <ul class="row no-gutters">
       <li
         v-for="mixtape in getMixtapes"
@@ -52,7 +52,7 @@ export default {
 <style lang="scss">
   .mixtape-listing {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 30px;
 
     @include media-breakpoint-up(md) {
       padding: 45px;
@@ -70,13 +70,13 @@ export default {
   }
 
   .mixtape-listing-header {
-    margin: 0;
-    font-size: 24px;
+    margin: 0 0 10px;
+    font-size: rem-calc(32px);
     text-transform: uppercase;
     color: $white;
 
     @include media-breakpoint-up(md) {
-      font-size: 36px;
+      font-size: rem-calc(48px);
       margin-bottom: 30px;
     }
   }
@@ -87,19 +87,19 @@ export default {
 
   .play-mixtape {
     display: block;
-    padding: 5px 0;
+    padding: 10px 0;
     color: $white;
-    font-size: 1rem;
+    font-size: rem-calc(18px);
 
     @include media-breakpoint-up(md) {
-      font-size: 1.5rem;
+      font-size: rem-calc(24px);
       margin: {
         top: 5px;
         bottom: 5px;
       };
     }
     @include media-breakpoint-up(lg) {
-      font-size: 1.75rem;
+      font-size: rem-calc(32px);
       margin: {
         top: 15px;
         bottom: 15px;

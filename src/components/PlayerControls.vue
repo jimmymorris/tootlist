@@ -46,6 +46,7 @@ export default {
 <style lang="scss">
 
   .global-controls {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +59,12 @@ export default {
       background: transparent;
       border: 0;
       color: $raven;
+      cursor: pointer;
+
+      &:disabled {
+        cursor: not-allowed;
+        opacity: .5;
+      }
     }
 
     .play-pause {

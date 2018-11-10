@@ -101,10 +101,12 @@ export default new Vuex.Store({
     pausePlaying() {
       this.state.sound.pause();
       this.state.playing = false;
+      document.title = `Paused: ${this.state.currentTrack.song} by ${this.state.currentTrack.artist} from ${this.state.currentMixtape.name}`;
     },
     startPlaying() {
       this.state.sound.play();
       this.state.playing = true;
+      document.title = `Playing: ${this.state.currentTrack.song} by ${this.state.currentTrack.artist} from ${this.state.currentMixtape.name}`;
     },
     setCurrentFileDir(state, filepath) {
       Vue.set(this.state, 'currentFileDir', filepath);
@@ -144,6 +146,7 @@ export default new Vuex.Store({
       this.dispatch('pausePlaying');
       Vue.set(this.state, 'currentTrack', track);
       this.dispatch('loadSound');
+      document.title = `Loaded: ${track.song} by ${track.artist} from ${this.state.currentMixtape.name}`;
     },
     setCurrentTrackTime(state, seconds) {
       Vue.set(this.state, 'currentTrackTime', seconds);
