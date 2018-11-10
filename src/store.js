@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import { event } from 'vue-analytics';
 
 Vue.use(Vuex);
 
@@ -102,11 +103,13 @@ export default new Vuex.Store({
       this.state.sound.pause();
       this.state.playing = false;
       document.title = `Paused: ${this.state.currentTrack.song} by ${this.state.currentTrack.artist} from ${this.state.currentMixtape.name}`;
+      event('click', 'Player Interaction', 'Pressed Pause');
     },
     startPlaying() {
       this.state.sound.play();
       this.state.playing = true;
       document.title = `Playing: ${this.state.currentTrack.song} by ${this.state.currentTrack.artist} from ${this.state.currentMixtape.name}`;
+      event('click', 'Player Interaction', 'Pressed Play');
     },
     setCurrentFileDir(state, filepath) {
       Vue.set(this.state, 'currentFileDir', filepath);
@@ -120,6 +123,7 @@ export default new Vuex.Store({
       this.dispatch('setActiveCover', mixtape.cover);
       this.dispatch('setActiveTrackList', mixtape.tracks);
       this.dispatch('setActiveQueue', 0);
+      event('load', 'Mixtape Loaded', mixtape.name);
     },
     setActiveTrackList(state, tracks) {
       Vue.set(this.state, 'currentTrackList', [...tracks]);
@@ -147,6 +151,9 @@ export default new Vuex.Store({
       Vue.set(this.state, 'currentTrack', track);
       this.dispatch('loadSound');
       document.title = `Loaded: ${track.song} by ${track.artist} from ${this.state.currentMixtape.name}`;
+      event('load', 'Arist Loaded', track.artist);
+      event('load', 'Song Loaded', track.song);
+      event('load', 'Track Loaded', `${track.order} - ${track.artist} - ${track.song}`);
     },
     setCurrentTrackTime(state, seconds) {
       Vue.set(this.state, 'currentTrackTime', seconds);
@@ -156,15 +163,23 @@ export default new Vuex.Store({
     },
     setNextTrack() {
       Vue.set(this.state, 'nextTrackOrder', Math.floor(this.state.currentTrack.order));
+      event('click', 'Interaction', 'Pressed Next');
     },
     setPrevTrack() {
       Vue.set(this.state, 'prevTrackOrder', Math.floor(this.state.currentTrack.order - 2));
+      event('click', 'Pressed Interaction', 'Pressed Prev');
     },
     toggleShowListing() {
+      if (this.state.showListing) {
+        event('click', 'Side Bar Interaction', 'Hide Mixtape Listing');
+      } else {
+        event('click', 'Side Bar Interaction', 'Show Mixtape Listing');
+      }
       Vue.set(this.state, 'showListing', !this.state.showListing);
     },
     toggleShowPlayer() {
       Vue.set(this.state, 'showPlayer', !this.state.showPlayer);
+      event('click', 'Show Player', 'Show Player');
     },
   },
   actions: {

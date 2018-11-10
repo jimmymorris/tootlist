@@ -13,6 +13,7 @@
     "howler": "^2.0.15",
     "npm": "^6.4.1",
     "vue": "^2.5.17",
+    "vue-analytics": "^5.16.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@
         <a
           href="#"
           :class="{ playing: (index+1) === getCurrentTrack.order }"
-          @click.prevent="setTrack(index)">
+          @click.prevent="setTrack(index, track)">
             <span class="track-song">{{ track.song }}</span>
             <span class="track-artist">{{ track.artist }}</span>
             <i class="track-play-button fas fa-play fa-fw"></i>
@@ -17,6 +17,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
+import { event } from 'vue-analytics';
 
 export default {
   name: 'CurrentMixtape',
@@ -28,9 +29,10 @@ export default {
     ]),
   },
   methods: {
-    setTrack(index) {
+    setTrack(index, track) {
       this.$store.dispatch('setActiveQueue', index).then(() => {
         this.$store.dispatch('startPlaying');
+        event('click', 'Track Listing Interaction', `clicked ${track.song} by ${track.artist}`);
       });
     },
   },
