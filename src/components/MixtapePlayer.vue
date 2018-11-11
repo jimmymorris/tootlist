@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss">
   .mixtape-cover-art {
-    @media (max-height: rem-calc(767px)) {
+    @media (max-height: rem-calc(740px)) {
       display: none;
     }
   }

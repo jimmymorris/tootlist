@@ -1,6 +1,6 @@
 {
   "name": "Feet Above Water",
-  "cover": "/mixtapes/feet-above-water/feet-above-water.jpg",
+  "cover": "./mixtapes/feet-above-water/feet-above-water.jpg",
   "filepath": "./mixtapes/feet-above-water/",
   "tracks": [
     {

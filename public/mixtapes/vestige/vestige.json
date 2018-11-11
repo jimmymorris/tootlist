@@ -1,6 +1,6 @@
 {
   "name": "Vestige",
-  "cover": "/mixtapes/vestige/vestige.jpg",
+  "cover": "./mixtapes/vestige/vestige.jpg",
   "filepath": "./mixtapes/vestige/",
   "tracks": [
     {

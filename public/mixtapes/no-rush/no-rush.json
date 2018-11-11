@@ -1,6 +1,6 @@
 {
   "name": "No Rush",
-  "cover": "/mixtapes/no-rush/no-rush.jpg",
+  "cover": "./mixtapes/no-rush/no-rush.jpg",
   "filepath": "./mixtapes/no-rush/",
   "tracks": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "Topeka",
-  "cover": "/mixtapes/topeka/topeka.jpg",
+  "cover": "./mixtapes/topeka/topeka.jpg",
   "filepath": "./mixtapes/topeka/",
   "tracks": [
     {

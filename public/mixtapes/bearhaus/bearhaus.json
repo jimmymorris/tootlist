@@ -1,6 +1,6 @@
 {
   "name": "Bearhaus",
-  "cover": "/mixtapes/bearhaus/bearhaus.jpg",
+  "cover": "./mixtapes/bearhaus/bearhaus.jpg",
   "filepath": "./mixtapes/bearhaus/",
   "tracks": [
     {

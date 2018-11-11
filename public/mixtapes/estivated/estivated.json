@@ -1,6 +1,6 @@
 {
   "name": "Estivated",
-  "cover": "/mixtapes/estivated/estivated.jpg",
+  "cover": "./mixtapes/estivated/estivated.jpg",
   "filepath": "./mixtapes/estivated/",
   "tracks": [
     {

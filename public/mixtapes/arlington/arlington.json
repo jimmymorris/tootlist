@@ -1,6 +1,6 @@
 {
   "name": "Arlington",
-  "cover": "/mixtapes/arlington/arlington.jpg",
+  "cover": "./mixtapes/arlington/arlington.jpg",
   "filepath": "./mixtapes/arlington/",
   "tracks": [
     {

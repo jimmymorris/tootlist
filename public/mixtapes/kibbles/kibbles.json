@@ -1,6 +1,6 @@
 {
   "name": "Kibbles",
-  "cover": "/mixtapes/kibbles/kibbles.jpg",
+  "cover": "./mixtapes/kibbles/kibbles.jpg",
   "filepath": "./mixtapes/kibbles/",
   "tracks": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "Piedmont",
-  "cover": "/mixtapes/piedmont/piedmont.jpg",
+  "cover": "./mixtapes/piedmont/piedmont.jpg",
   "filepath": "./mixtapes/piedmont/",
   "tracks": [
     {

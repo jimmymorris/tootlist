@@ -1,6 +1,6 @@
 {
   "name": "Whitehurst Frwy",
-  "cover": "/mixtapes/whitehurst-frwy/whitehurst-frwy.jpg",
+  "cover": "./mixtapes/whitehurst-frwy/whitehurst-frwy.jpg",
   "filepath": "./mixtapes/whitehurst-frwy/",
   "tracks": [
     {

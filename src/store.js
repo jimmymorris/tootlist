@@ -144,7 +144,7 @@ export default new Vuex.Store({
       this.dispatch('setCurrentTrack', songQueue[0]);
     },
     setActiveCover(state, cover) {
-      this.state.currentCover = cover;
+      Vue.set(this.state, 'currentCover', cover);
     },
     setCurrentTrack(state, track) {
       this.dispatch('pausePlaying');
