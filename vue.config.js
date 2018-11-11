@@ -1,7 +1,4 @@
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/tootlist/'
-    : '/',
   css: {
     loaderOptions: {
       sass: {
