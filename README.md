@@ -8,3 +8,4 @@ Terrible, terrible name, that started out as a way to replace my 8-track uploads
 * Repeat one - Repeat single track
 * Random - Randomize mixtape order
 * “Radio mode" - This would be random list of all available tracks
+* Permalinks for mixtapes - Basically implementing a router so it's easy to share.
